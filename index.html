@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CUSTOMIZE: Browser tab title -->
-    <title>Will You Be My Valentine? 💝</title>
+    <title>Happy Birthday! 🎉</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Styles -->
@@ -13,12 +13,12 @@
 <body>
     <!-- Floating Background Elements -->
     <div class="floating-elements">
-        <!-- Hearts and bears will be added here by JavaScript -->
+        <!-- Confetti and party elements will be added here by JavaScript -->
     </div>
 
     <!-- Main Content Container -->
     <div class="container">
-        <h1 id="valentineTitle"></h1>
+        <h1 id="birthdayTitle"></h1>
         
         <!-- Music Player -->
         <div id="musicControls" class="music-controls">
@@ -40,15 +40,15 @@
             </div>
         </div>
 
-        <!-- Second Question (Love Meter) -->
+        <!-- Second Question (Fun Meter) -->
         <div class="question-section hidden" id="question2">
             <h2 id="question2Text"></h2>
-            <!-- Love meter settings: min="0" max="10000" -->
-            <div class="love-meter">
-                <input type="range" min="0" max="10000" value="100" class="slider" id="loveMeter">
+            <!-- Fun meter settings: min="0" max="10000" -->
+            <div class="fun-meter">
+                <input type="range" min="0" max="10000" value="100" class="slider" id="funMeter">
                 <p>
-                    <span class="love-value-container"><span id="startText"></span> (<span id="loveValue">100</span>%)</span>
-                    <span id="extraLove" class="hidden"></span>
+                    <span class="fun-value-container"><span id="startText"></span> (<span id="funValue">100</span>%)</span>
+                    <span id="extraFun" class="hidden"></span>
                 </p>
             </div>
             <button class="cute-btn" onclick="showNextQuestion(3)" id="nextBtn"></button>
@@ -74,4 +74,4 @@
     <script src="theme.js"></script>
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
